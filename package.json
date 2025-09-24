@@ -1,0 +1,57 @@
+{
+  "name": "era",
+  "version": "12.0.0",
+  "description": "A modern Electron application template with React, Vite, TypeScript, Shadcn UI and TailwindCSS",
+  "main": "./out/main/main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron ."
+  },
+  "author": {
+    "name": "Guasam",
+    "url": "https://github.com/guasam"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guasam/electron-react-app"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.27.0",
+    "@electron-toolkit/preload": "^3.0.2",
+    "@electron-toolkit/utils": "^4.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@reduxjs/toolkit": "^2.9.0",
+    "@tanstack/react-query": "^5.89.0",
+    "@tanstack/react-query-devtools": "^5.89.0",
+    "axios": "^1.12.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "i18next": "^25.5.2",
+    "lucide-react": "^0.541.0",
+    "node-machine-id": "^1.1.12",
+    "react-i18next": "^15.7.3",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.1",
+    "systeminformation": "^5.27.9",
+    "tailwind-merge": "^3.3.1",
+    "tw-animate-css": "^1.3.7",
+    "zod": "^4.1.3",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "electron-vite": "^3.1.0"
+  }
+}
